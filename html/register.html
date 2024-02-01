@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ilkea</title>
+    <link rel="icon" href="/photos/logo.png">
+    <link rel="stylesheet" href="/css/register.css">
+</head>
+<body>
+    <header>
+        <div class="topnav-left">
+            <a href="home.html"><img src="/photos/logo.png" width="100 px"></a>
+            <p class="slogan">The World's Furniture Marketplace</p>
+        </div>
+        <div class="topnav-right">
+            <a class="img-navbar" href="home.html"><img src="/photos/home.png" width="28 px"></a>
+            <a class="active" href="login.html"><img src="/photos/user.png" width="28 px"></a>
+        </div>
+    </header>
+
+    <p class="top-title">Register</p>
+
+    <div class="input-form">
+        <form name="RegForm">
+            <p>
+                Email Address: <br>
+                <input type="text" id="Email" size="68">
+            </p>
+            <br>
+            <p>
+                Name: <br>
+                <input type="text" id="Name" size="68">
+            </p>
+            <br>
+            <p>
+                Gender:
+                <input type="radio" id="male" value="male"> Male
+                <input type="radio" id="female" value="female"> Female
+            </p>
+            <br>
+            <p>
+                Phone Number: <br>
+                <input type="text" id="PhoneNum" size="68">
+            </p>
+            <br>
+            <p>
+                Address: <br>
+                <textarea cols="64" id="Address"></textarea>
+            </p>
+            <br>
+            <p>
+                Password: <br>
+                <input type="text" id="Password" size="68">
+            </p>
+            <br>
+            <p>
+                Confirm Password: <br>
+                <input type="text" id="ConfPass" size="68">
+            </p>
+            <br>
+            <p>
+                <input type="checkbox" id="Terms">
+                <label for="Terms">I've read and understood the ILKEA General Terms & Conditions.</label>
+            </p>
+            <br>
+            <p>
+                <input type="checkbox" id="Subscribe">
+                <label for="Subscribe">I want to subscribe to the newsletter.</label>
+            </p>
+            <br>
+            <p class="button">
+                <input type="submit" value="Register" id="submitBtn" onclick="validation()">
+            </p>
+        </form>
+    </div>
+
+    <footer>
+        <div class="bottom-nav">
+            <a class="img-footer" href="https://www.facebook.com/"><img src="/photos/facebook.png" width="27 px"></a>
+            <a class="img-footer" href="https://www.instagram.com/"><img src="/photos/instagram.png" width="30 px"></a>
+            <a class="img-footer" href="https://www.twitter.com/"><img src="/photos/twitter.png" width="25 px"></a>
+            <p class="copyright">Copyright © ILKEA All Rights Reserved</p>
+        </div>
+    </footer>
+
+    <script src="../js/register.js"></script>
+</body>
+</html>

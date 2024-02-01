@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ilkea</title>
+    <link rel="icon" href="/photos/logo.png">
+    <link rel="stylesheet" href="/css/login.css">
+</head>
+<body>
+    <header>
+        <div class="topnav-left">
+            <a href="home.html"><img src="/photos/logo.png" width="100 px"></a>
+            <p class="slogan">The World's Furniture Marketplace</p>
+        </div>
+        <div class="topnav-right">
+            <a class="img-navbar" href="home.html"><img src="/photos/home.png" width="28 px"></a>
+            <a class="active" href="login.html"><img src="/photos/user.png" width="28 px"></a>
+        </div>
+    </header>
+
+    <p class="top-title">Login</p>
+
+    <div class="input-form">
+        <form name="RegForm">
+            <p class="input">
+                Email Address: <br>
+                <input type="text" id="Email" size="68">
+            </p>
+            <br>
+            <p class="input">
+                Password: <br>
+                <input type="text" id="Password" size="68">
+            </p>
+            <br>
+            <p class="input">
+                <input type="checkbox" id="Remember">
+                <label for="Terms">Remember Me</label>
+            </p>
+            <br>
+            <p class="button">
+                <input type="submit" value="Login" id="submitBtn" onclick="validation()">
+            </p>
+            <br>
+            <p class="register"><a href="register.html">Register a new account</a></p>
+        </form>
+    </div>
+
+    <footer>
+        <div class="bottom-nav">
+            <a class="img-footer" href="https://www.facebook.com/"><img src="/photos/facebook.png" width="27 px"></a>
+            <a class="img-footer" href="https://www.instagram.com/"><img src="/photos/instagram.png" width="30 px"></a>
+            <a class="img-footer" href="https://www.twitter.com/"><img src="/photos/twitter.png" width="25 px"></a>
+            <p class="copyright">Copyright © ILKEA All Rights Reserved</p>
+        </div>
+    </footer>
+
+    <script src="../js/login.js"></script>
+</body>
+</html>
